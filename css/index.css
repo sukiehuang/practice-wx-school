@@ -1,0 +1,102 @@
+#warp{
+	max-width: 640px; margin: 0 auto; margin-bottom: 50px; min-height: 100%; background: #fff; position: relative;
+}
+.banner_box{
+	overflow: hidden; position: relative;
+}
+.banner_box ul {
+	-webkit-padding-start: 0px;
+}
+.banner_box > ol {
+	height: 20px; text-align: right; padding-right: 15px; margin-top: -25px; position: relative; z-index: 10; background-color: rgba(0, 0, 0, 0.3);
+}
+.banner_box > ol > li {
+	margin: 5px 0px; border-radius: 8px; width: 8px; height: 8px; display: inline-block; background-color: rgb(117, 117, 117);
+}
+.banner_box > ol > li.on {
+	background-color: rgb(255, 255, 255);
+}
+.banner_box ul li a img{
+	max-width: 100%; width: 100%;
+}
+
+.flex{
+	/*flex layout*/
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: flex;
+	/*children elements display in one row*/
+	-webkit-flex-flow: row nowrap;
+	-moz-flex-flow: row nowrap;
+	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+	-webkit-justify-content:space-between;
+	-moz-justify-content:space-between;
+	-ms-justify-content:space-between;
+	justify-content:space-between;
+
+}
+.flex div{
+	margin: 0.1rem 0;
+}
+.first,.second,.third,.four,.five,.six,.seven,.eight{
+	text-align: center; overflow: hidden;
+}
+#section a{
+	display: inline-block; width: 100%; height: 116px; color: #fff;font-size: 16px;
+}
+#section a div:first-child{
+	margin-top: 26px; margin-bottom: 10px;
+}
+.icon{
+	width:100%; height: 40px; display: block;
+}
+.first{
+	width: 32%;  background: rgb(68,201,246);
+}
+.icon-news{
+	background: url(../images/news.png) center center no-repeat;
+}
+.second{
+	width: 42%; background: rgb(248,128,111);
+} 
+.icon-details{
+	background: url(../images/details.png) center center no-repeat;
+}
+.third{
+	width: 25%; background: rgb(19,169,229);
+}
+.icon-video{
+	background: url(../images/video.png) center center no-repeat;
+}
+.four{
+	width: 50%; background: rgb(60,184,120);
+}
+.icon-query{
+	background: url(../images/query.png) center center no-repeat;
+}
+.five{
+	width: 49%; background: rgb(0,169,157);
+}
+.icon-admission{
+	background: url(../images/admission.png) center center no-repeat;
+}
+.six{
+	width: 38%; background: rgb(125,167,217);
+}
+.icon-public{
+	background: url(../images/public.png) center center no-repeat;
+}
+.seven{
+	width: 32%; background: rgba(251,175,93,1);
+}
+.icon-topic{
+	background: url(../images/topic.png) center center no-repeat;
+}
+.eight{
+	width: 28%;background: rgb(181,126,207);
+}
+.icon-map{
+	background: url(../images/map.png) center center no-repeat;
+}
